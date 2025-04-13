@@ -1,15 +1,17 @@
-    // ==UserScript==
-    // @name         Clean Twitter(X)
-    // @namespace    https://x.com/mirabella_777
-    // @version      1.5
-    // @description  Removes premium content
-    // @author       mirabella_777
-    // @match        *://twitter.com/*
-    // @match        *://x.com/*
-    // @grant        none
-    // @run-at       document-idle
-    // ==/UserScript==
-     
+// ==UserScript==
+// @name         Clean Twitter(X)
+// @namespace    https://x.com/mirabella_777
+// @version      1.5.0
+// @description  Cleans Twitter/X by hiding premium content, showing Community Notes, etc.
+// @author       mirabella_777
+// @match        https://x.com/*
+// @match        https://twitter.com/*
+// @icon         https://twitter.com/favicon.ico
+// @grant        none
+// @license      MIT
+// @updateURL    https://raw.githubusercontent.com/Invilein/cleanX/main/CleanX.user.js
+// @downloadURL  https://raw.githubusercontent.com/Invilein/cleanX/main/CleanX.user.js
+// ==/UserScript==
     (function() {
         'use strict';
      
