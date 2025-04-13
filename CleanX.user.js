@@ -1,4 +1,14 @@
-
+    // ==UserScript==
+    // @name         Clean Twitter(X)
+    // @namespace    https://x.com/mirabella_777
+    // @version      1.5
+    // @description  Removes premium content
+    // @author       mirabella_777
+    // @match        *://twitter.com/*
+    // @match        *://x.com/*
+    // @grant        none
+    // @run-at       document-idle
+    // ==/UserScript==
      
     (function() {
         'use strict';
